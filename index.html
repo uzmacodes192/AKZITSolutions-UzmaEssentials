@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Uzma Essentials | Online Shopping</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo">
+        <h2>Uzma Essentials</h2>
+    </div>
+
+
+    <nav>
+
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+
+    <div class="cart">
+
+        🛒 Cart :
+        <span id="cartCount">0</span>
+
+    </div>
+
+
+</header>
+
+
+
+<section class="hero">
+
+
+    <h1>Welcome to Uzma Essentials</h1>
+
+    <p>Discover amazing products at affordable prices.</p>
+
+
+    <button>
+        Shop Now
+    </button>
+
+
+</section>
+
+
+
+
+<section class="search-box">
+
+
+<input type="text" 
+id="searchInput"
+placeholder="Search Products..."
+onkeyup="searchProduct()">
+
+
+
+</section>
+
+
+
+
+
+<section id="products">
+
+
+<h2>Our Products</h2>
+
+
+
+<div class="product-container">
+
+
+
+<div class="card">
+
+<img src="images/product1.jpg.webp">
+
+<h3 class="product-name">
+Wireless Headphones
+</h3>
+
+<p>$29.99</p>
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<img src="images/product2.jpg.webp">
+
+
+<h3 class="product-name">
+Smart Watch
+</h3>
+
+<p>$49.99</p>
+
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div class="card">
+
+<img src="images/product3.jpg.webp">
+
+
+<h3 class="product-name">
+Sports Shoes
+</h3>
+
+
+<p>$59.99</p>
+
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="card">
+
+
+<img src="images/product4.jpg.jpg">
+
+
+<h3 class="product-name">
+Backpack
+</h3>
+
+
+<p>$24.99</p>
+
+
+<button onclick="addCart()">
+Add to Cart
+</button>
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section id="about">
+
+
+<h2>About Us</h2>
+
+
+<p>
+
+Uzma Essentials is a simple online shopping website created as a Frontend Development Internship project.
+It is designed using HTML, CSS and JavaScript with a clean and responsive layout.
+
+</p>
+
+
+</section>
+
+
+
+
+
+<section id="contact">
+
+
+<h2>Contact</h2>
+
+
+<p>Email : support@uzmaessentials.com</p>
+
+
+<p>Phone : +1 (555) 123-4567</p>
+
+
+
+</section>
+
+
+
+
+
+<footer>
+
+
+<p>
+© 2026 Uzma Essentials | All Rights Reserved
+</p>
+
+
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+
+
+</html>
